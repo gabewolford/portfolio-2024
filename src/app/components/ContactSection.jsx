@@ -1,7 +1,7 @@
 export default function ContactSection() {
   return (
     <section className="mb-40">
-      <h5 className="text-xl p-2 border-b md:border-none">Get in touch</h5>
+      <h5 className="text-xl p-2">Get in touch</h5>
       <div className="grid gap-2 grid-cols-2 md:grid-cols-16 text-gray-400 text-sm md:border-b p-2 items-start md:items-center">
         <p className="col-span-1 md:col-span-4 py-2">Email</p>
         <a
