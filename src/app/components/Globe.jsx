@@ -29,7 +29,7 @@ export default function Globe() {
           className={`mr-[50px] ${
             isScrolled
               ? "transition transform translate-x-full ease-in-out duration-[1500ms]"
-              : "transition ease-in-out duration-[1000ms]"
+              : "transition ease-in-out duration-[850ms]"
           }`}
         >
           <Image src={globe} alt="globe" priority={true} />
