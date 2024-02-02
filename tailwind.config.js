@@ -17,6 +17,9 @@ module.exports = {
         offWhite: {
           500: "#ECE5D6",
         },
+        green: {
+          500: "#5D785C",
+        },
       },
       gridTemplateColumns: {
         16: "repeat(16, minmax(0, 1fr))",

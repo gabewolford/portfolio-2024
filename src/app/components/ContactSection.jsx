@@ -7,7 +7,7 @@ export default function ContactSection() {
         <a
           href="mailto:gabewolford@gmail.com"
           target="_blank"
-          className="col-span-1 md:col-span-4 md:hidden text-yellow-400 md:text-black flex my-auto"
+          className="col-span-1 md:col-span-4 md:hidden text-green-500 md:text-black flex my-auto"
         >
           gabewolford@gmail.com
         </a>
@@ -23,7 +23,7 @@ export default function ContactSection() {
         <a
           href="https://github.com/gabewolford/"
           target="_blank"
-          className="col-span-1 md:col-span-4 md:hidden text-orange-400 md:text-black my-auto"
+          className="col-span-1 md:col-span-4 md:hidden text-orange-300 md:text-black my-auto"
         >
           /gabewolford
         </a>
@@ -41,7 +41,7 @@ export default function ContactSection() {
         <a
           href="mailto:gabewolford@gmail.com"
           target="_blank"
-          className="col-span-1 md:col-span-4 hover:text-yellow-400 transtion duration-100"
+          className="col-span-1 md:col-span-4 hover:text-green-500 transtion duration-100"
         >
           gabewolford@gmail.com
         </a>
@@ -55,7 +55,7 @@ export default function ContactSection() {
         <a
           href="https://github.com/gabewolford/"
           target="_blank"
-          className="col-span-1 md:col-span-4 hover:text-orange-400 transtion duration-100"
+          className="col-span-1 md:col-span-4 hover:text-orange-300 transtion duration-100"
         >
           /gabewolford
         </a>
