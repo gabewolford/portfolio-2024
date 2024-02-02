@@ -7,7 +7,7 @@ export default function ContactSection() {
         <a
           href="mailto:gabewolford@gmail.com"
           target="_blank"
-          className="col-span-1 md:col-span-4 md:hidden text-yellow-400 md:text-black"
+          className="col-span-1 md:col-span-4 md:hidden text-yellow-400 md:text-black flex my-auto"
         >
           gabewolford@gmail.com
         </a>
@@ -15,7 +15,7 @@ export default function ContactSection() {
         <a
           href="https://www.linkedin.com/in/gabe-wolford/"
           target="_blank"
-          className="col-span-1 md:col-span-4 md:hidden text-blue-500 md:text-black"
+          className="col-span-1 md:col-span-4 md:hidden text-blue-500 md:text-black my-auto"
         >
           /gabe-wolford
         </a>
@@ -23,7 +23,7 @@ export default function ContactSection() {
         <a
           href="https://github.com/gabewolford/"
           target="_blank"
-          className="col-span-1 md:col-span-4 md:hidden text-orange-400 md:text-black"
+          className="col-span-1 md:col-span-4 md:hidden text-orange-400 md:text-black my-auto"
         >
           /gabewolford
         </a>
@@ -31,7 +31,7 @@ export default function ContactSection() {
         <a
           href="https://biiigstretch.studio/"
           target="_blank"
-          className="col-span-1 md:col-span-4 md:hidden text-lavender-500 md:text-black"
+          className="col-span-1 md:col-span-4 md:hidden text-lavender-500 md:text-black my-auto"
         >
           Biiig Stretch Studio
         </a>
