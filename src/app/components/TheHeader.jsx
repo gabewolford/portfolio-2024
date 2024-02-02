@@ -1,6 +1,6 @@
 export default function TheHeader() {
   return (
-    <header className="grid gap-2 grid-cols-2 md:grid-cols-16 border-b p-2 text-xl items-center">
+    <header className="grid gap-2 grid-cols-2 md:grid-cols-16 border-b p-2 text-xl items-center mt-[66px]">
       <h1 className="col-span-1 md:col-span-5 order-0">Gabe Wolford</h1>
       <h2 className="md:col-span-6 order-2">Developer</h2>
       <div className="flex flex-row gap-0.5 items-center justify-end md:justify-start md:col-span-4 order-4 md:order-3">
