@@ -21,7 +21,7 @@ export default function WorkSection() {
           technologies="React, NextJS, Sanity, Tailwind, Vercel, Figma"
           type="Marketing Site"
           fullUrl="https://meat-cheese-bread.vercel.app"
-          shortUrl="meat-cheese-bread.vercel.app"
+          shortUrl="meatcheesebread.com"
         />
         <Project
           year="2023"
@@ -53,7 +53,7 @@ export default function WorkSection() {
           technologies="React, NextJS, Sanity, Tailwind, Vercel, Figma"
           type="Marketing Site"
           fullUrl="https://vert-outdoors.vercel.app"
-          shortUrl="vert-outdoors.vercel.app"
+          shortUrl="vertoutdoors.com"
         />
         <Project
           year="2023"
