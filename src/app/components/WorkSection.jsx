@@ -17,6 +17,14 @@ export default function WorkSection() {
       <ul>
         <Project
           year="2024"
+          client="Outdoor Recreation Archive"
+          technologies="React, NextJS, Sanity, Tailwind, Vercel, Figma"
+          type="Media Archive"
+          fullUrl="https://outdoor-recreation-archive.vercel.app"
+          shortUrl="under construction"
+        />
+        <Project
+          year="2024"
           client="Meat Cheese Bread"
           technologies="React, NextJS, Sanity, Tailwind, Vercel, Figma"
           type="Marketing Site"
