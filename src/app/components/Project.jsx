@@ -1,29 +1,24 @@
-export default function Project({
-  year,
-  client,
-  technologies,
-  type,
-  fullUrl,
-  shortUrl,
-}) {
+export default function Project({ projectData }) {
   return (
     <li className="grid gap-2 grid-cols-9 md:grid-cols-16 text-sm border-b p-2 items-start md:items-center">
-      <p className="col-span-2 md:col-span-2 py-2">{year}</p>
+      <p className="col-span-2 md:col-span-2 py-2">{projectData.year}</p>
       <a
-        href={fullUrl}
+        href={projectData.fullUrl}
         target="_blank"
         className="col-span-3 md:col-span-3 py-2 md:flex flex-row gap-1 items-center hover:text-lavender-500"
       >
-        {client}
+        {projectData.client}
       </a>
-      <p className="col-span-3 md:col-span-4 py-2">{technologies}</p>
-      <p className="hidden md:block md:col-span-2 py-2">{type}</p>
+      <p className="col-span-3 md:col-span-4 py-2">
+        {projectData.technologies}
+      </p>
+      <p className="hidden md:block md:col-span-2 py-2">{projectData.type}</p>
       <a
-        href={fullUrl}
+        href={projectData.fullUrl}
         target="_blank"
         className="col-span-1 md:col-span-5 py-2 hidden md:flex flex-row gap-1 items-center hover:text-blue-500"
       >
-        {shortUrl}{" "}
+        {projectData.shortUrl}{" "}
         <span>
           <svg
             width="24"
@@ -44,7 +39,7 @@ export default function Project({
       </a>
 
       <p className="col-span-1 md:col-span-5 py-2 md:hidden flex justify-end">
-        <a href={fullUrl} target="_blank">
+        <a href={projectData.fullUrl} target="_blank">
           <svg
             width="24"
             height="24"
