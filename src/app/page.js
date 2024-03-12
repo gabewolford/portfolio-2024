@@ -5,13 +5,13 @@ import IntroSection from "./components/IntroSection";
 export const metadata = {
   title: "Gabe Wolford",
   description:
-    "Software developer, producer, and stargazer based in Portland, Oregon. Sweating the little details, putting the user first, and geeking out on good design.",
+    "Software developer and stargazer based in Portland, Oregon. Sweating the little details, putting the user first, and geeking out on good design.",
   keywords:
     "Software developer, software development, web developer, web development, frontend development, react, vue, next.js, nuxt, tailwind, sanity, marketing sites, portfolio sites, web design, portland",
   openGraph: {
     title: "Gabe Wolford",
     description:
-      "Software developer, producer, and stargazer based in Portland, Oregon. Sweating the little details, putting the user first, and geeking out on good design.",
+      "Software developer and stargazer based in Portland, Oregon. Sweating the little details, putting the user first, and geeking out on good design.",
     siteName: "Gabe Wolford",
     type: "website",
     locale: "en_US",
